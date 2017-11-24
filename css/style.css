@@ -1,0 +1,39 @@
+html {
+	/*Esto hace que la imagen siempre esté al 100%*/
+  height: 100%;
+  padding: 30px;
+}
+
+body {
+	/*Background-img*/
+	background-image: url("https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/*Font-text desde google fotns*/
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Contenedor del div con class="1"*/
+.div1 {
+	color: white;
+	border-radius: 16px;
+	padding: 35px;
+	/*RGBA ayuda a que los colores se vean transparentosos*/
+	background-color: rgba(0, 0, 0, 0.60);
+	max-width: 600px;
+}
+
+/*Contenedor del tag a*/
+.div1 a {
+	background-color: crimson;
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	max-width: 600px;
+}
+
+/*Espacio entre líneas del párrafo*/
+.div1 p {
+  line-height: 1.5;
+}
